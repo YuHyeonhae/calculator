@@ -3,6 +3,8 @@
 #include "stack.h"
 #include <string.h>
 
+int myNum; // 202210340 유현해 과제3 stack.c 수정
+
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
