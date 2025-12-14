@@ -2,6 +2,8 @@
 #define STACK_H
 #include <stdbool.h> 
 
+typedef int myNum; // 202210340 유현해 과제3 stack.h 코드 수정
+
 typedef int Item;
 typedef struct stack {
 Item * contents;
